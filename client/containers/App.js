@@ -1,12 +1,17 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { mapDispatchToProps } from 'redux-feathers';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 class App extends React.Component {
 
   render() {
     return (
-      <div>ready to dev</div>
+      <Router>
+        <Switch>
+          <Route>ready to dev</Route>
+        </Switch>
+      </Router>
     );
   }
 }

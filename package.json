@@ -48,9 +48,9 @@
     "react-redux": "^7.0.3",
     "react-router-dom": "^5.0.0",
     "redux": "^4.0.1",
-    "redux-feathers": "^0.1.0",
+    "redux-feathers": "^0.1.2",
     "redux-saga": "^1.0.2",
-    "redux-saga-wrapper": "^0.0.3",
+    "redux-saga-wrapper": "^0.1.0",
     "serve-favicon": "^2.5.0",
     "socket.io-client": "^2.2.0",
     "winston": "^3.0.0"
